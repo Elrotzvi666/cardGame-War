@@ -1,0 +1,89 @@
+body, html{
+  height: 100%;
+  color: rgb(180, 181, 186);
+  font-family: sans-serif;
+  text-shadow: 2px 2px 2px black;
+}
+
+.bgPhoto{
+  background-image: url("../public/pics/background.jpg");
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  height: 100%;
+}
+
+.App {
+  text-align: center;
+}
+
+.startField{
+  font-size: 30px;
+}
+
+.errMsgPlayerName{
+  font-weight: bolder;
+  color: red;
+}
+
+.picCard{
+  height: 150px;
+  width: 100px;
+}
+
+.btns{
+  width: 300px;
+  height: 50px;
+  border-radius: 40px;
+  background-color: rgb(3, 64, 48);
+  border-color: rgb(10, 74, 56);
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+
+.btns:hover
+{
+  background-color: rgb(5, 101, 75);
+}
+
+.btns:active{
+  transform: translateY(3px);
+}
+
+#disabledBtn{
+  color: rgb(82, 82, 82);
+  background-color: gray;
+}
+
+#startInput{
+  width: 300px;
+  border-radius: 40px;
+}
+
+#title{
+  font-size: 50px;
+  text-shadow: 5px 5px 2px black;
+}
+
+#playerNameTags, #computerNameTags{
+  color: rgb(2, 153, 113);
+  font-size: 40px;
+  text-shadow: 2px 2px 2px black;
+}
+
+#playerNameTags{
+  margin-right: 20%;
+}
+
+#computerNameTags{
+  margin-left: 20%;
+}
+
+#boardGame{
+  width: 60%;
+  margin-left: 20%;
+  background-image: url("../public/pics/cardTable.png");
+  background-position: center;
+  background-size: 120%;
+}
