@@ -3,6 +3,7 @@ import Home from './components/Home';
 import Game from './components/Game';
 import Score from './components/Score';
 import { useState } from 'react';
+import {HashRouter as Router,Switch,Route,Link} from 'react-router-dom';
 
 
 function App() {
