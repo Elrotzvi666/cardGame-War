@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cardGame-War/static/css/main.d0cefc0e.css",
+    "main.js": "/cardGame-War/static/js/main.a5e02ced.js",
+    "static/media/background.jpg": "/cardGame-War/static/media/background.bccc1afca91b0873704e.jpg",
+    "static/media/cardTable.png": "/cardGame-War/static/media/cardTable.9b002774573eabf6fa41.png",
+    "index.html": "/cardGame-War/index.html",
+    "main.d0cefc0e.css.map": "/cardGame-War/static/css/main.d0cefc0e.css.map",
+    "main.a5e02ced.js.map": "/cardGame-War/static/js/main.a5e02ced.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d0cefc0e.css",
+    "static/js/main.a5e02ced.js"
+  ]
+}
